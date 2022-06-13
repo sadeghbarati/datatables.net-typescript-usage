@@ -14,7 +14,9 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "types": ["datatables.net-bs5", "datatables.net-autofill", "datatables.net-autofill-bs5", "datatables.net-buttons", "datatables.net-buttons-bs5"]
   },
   "include": ["src"]
 }

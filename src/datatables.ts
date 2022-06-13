@@ -1,5 +1,15 @@
+/// <reference types="datatables.net-bs5" />
+/// <reference types="datatables.net-autofill" />
+/// <reference types="datatables.net-autofill-bs5" />
+/// <reference types="datatables.net-buttons" />
+
+
+
 import jQuery from 'jquery'
 
+import Api from 'datatables.net'
+
+import type Datatables from 'datatables.net-colreorder'
 
 import dt from 'datatables.net'
 import dtbs5 from 'datatables.net-bs5'
@@ -36,36 +46,40 @@ import SelectBs5 from 'datatables.net-select-bs5'
 import StateRestore from 'datatables.net-staterestore'
 import StateRestoreBs5 from 'datatables.net-staterestore-bs5'
 
+
+
+// Api<Datatables.ColReorderSettings>
+
 new dt() // has declaration
-new dtbs5() // has empty declaration
-new AutoFill() // has declaration
-new AutoFillBs5() // has empty declaration
-new Buttons() // has declaration
-new ButtonsBs5() // has empty declaration
-new colVis()
-new html5()
-new print()
-new ColReorder() // has declaration
-new ColReorderBs5() // has empty declaration
+dtbs5() // has empty declaration
+AutoFill() // has declaration
+AutoFillBs5() // has empty declaration
+Buttons() // has declaration
+ButtonsBs5() // has empty declaration
+colVis()
+html5()
+print()
+ColReorder() // has declaration
+ColReorderBs5() // has empty declaration
 // new FixedColumns() has no call signatures. has declaration
-new FixedColumnsBs5() // has empty declaration
-new FixedHeader() // has declaration
-new FixedHeaderBs5() // has empty declaration
-new KeyTable() // has declaration
-new KeyTableBs5() // has empty declaration
-new RowGroup() // has declaration
-new RowGroupBs5() // has empty declaration
-new RowReorder() // No declaration
-new RowReorderBs5() // No declaration
-new Responsive() // has declaration
-new ResponsiveBs5() // has empty declaration
-new Scroller() // has declaration
-new ScrollerBs5() // has empty declaration
+FixedColumnsBs5() // has empty declaration
+FixedHeader() // has declaration
+FixedHeaderBs5() // has empty declaration
+KeyTable() // has declaration
+KeyTableBs5() // has empty declaration
+RowGroup() // has declaration
+RowGroupBs5() // has empty declaration
+RowReorder() // No declaration
+RowReorderBs5() // No declaration
+Responsive() // has declaration
+ResponsiveBs5() // has empty declaration
+Scroller() // has declaration
+ScrollerBs5() // has empty declaration
 // new SearchBuilder() has no call signatures. has declaration
-new SearchBuilderBs5() // has empty declaration
+SearchBuilderBs5() // has empty declaration
 // new SearchPanes() has no call signatures. has declaration
-new SearchPanesBs5() // has empty declaration
-new Select() // has declaration
-new SelectBs5() // has empty declaration
+SearchPanesBs5() // has empty declaration
+Select() // has declaration
+SelectBs5() // has empty declaration
 // new StateRestore() has no call signatures. has declaration
-new StateRestoreBs5() // has empty declaration
+StateRestoreBs5() // has empty declaration
