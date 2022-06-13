@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sandbox": "APP_ENV=sandbox vite"
   },
   "dependencies": {
     "datatables.net": "^1.12.1",
@@ -45,6 +46,7 @@
   },
   "devDependencies": {
     "@types/jquery": "^3.5.14",
+    "@types/node": "^17.0.42",
     "typescript": "^4.5.4",
     "vite": "^2.9.9"
   }
